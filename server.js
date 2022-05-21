@@ -9,7 +9,7 @@ const htmlRoutes = require("./routes/htmlRoutes");
 const app = express();
 
 // port
-const PORT = process.env.PORT || 3005;
+const PORT = process.env.PORT || 3007;
 
 // Set up body parsing, static, and route middleware
 app.use(express.json());
